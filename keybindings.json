@@ -1,0 +1,35 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入しますauto[]
+[
+    {
+        "key": "alt+j",
+        "command": "gitlens.openFileHistory"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "workbench.scm.focus"
+    },
+    {
+        "key": "shift+alt+n",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "github.copilot.git.generateCommitMessage"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "git.push"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "git.stage"
+    },
+    {
+        "key": "ctrl+alt+s",
+        "command": "git.stageAll"
+    },
+    {
+        "key": "ctrl+alt+h",
+        "command": "git.stageSelectedRanges"
+    }
+]
